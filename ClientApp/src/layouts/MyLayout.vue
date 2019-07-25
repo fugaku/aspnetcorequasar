@@ -11,7 +11,7 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="left" side="left" bordered>
+    <q-drawer v-model="left" side="left" bordered :content-style="{ backgroundColor: '#FEEEEE' }">
       <q-list>
         <q-item clickable tag="a" target="_blank" href="#">
           <q-item-section avatar>
